@@ -1,0 +1,7 @@
+set RAILS_ENV=production
+set SECRET_KEY_BASE=ca1a195ca8e48af0256d2fe67ec51f58a9651e94f7f5a47007a49c58ca9bc712dfbeff83cbdec365e456c566111e10fef2b34ba4735c85b037eff2bdc8a5503d
+set RAILS_SERVE_STATIC_FILES=true
+
+f:
+cd F:\Projects\TradeCenterCyberPunk 
+rails server

@@ -1,0 +1,442 @@
+/* line 6, F:/Projects/ruby/TradeCenter/app/assets/stylesheets/articles.scss */
+textarea.body_text {
+  font-family: "lucida console", serif;
+  height: 300px;
+}
+
+/* line 11, F:/Projects/ruby/TradeCenter/app/assets/stylesheets/articles.scss */
+.article_wrap {
+  margin: 20px 0 20px 0;
+}
+
+/* line 15, F:/Projects/ruby/TradeCenter/app/assets/stylesheets/articles.scss */
+.article {
+  padding-bottom: 20px;
+  border-bottom: 2px solid green;
+}
+
+/* line 20, F:/Projects/ruby/TradeCenter/app/assets/stylesheets/articles.scss */
+.article_resume, .article_body_text {
+  white-space: pre-wrap;
+}
+
+/* line 24, F:/Projects/ruby/TradeCenter/app/assets/stylesheets/articles.scss */
+.new_article_button {
+  margin-top: 30px;
+}
+
+/* line 28, F:/Projects/ruby/TradeCenter/app/assets/stylesheets/articles.scss */
+.new_article_button a:link {
+  background-color: black;
+  padding: 12px;
+  border: 2px solid green;
+  display: inline-block;
+}
+
+/* line 35, F:/Projects/ruby/TradeCenter/app/assets/stylesheets/articles.scss */
+.new_article_button a:link:hover {
+  background: green;
+  display: inline-block;
+}
+
+/* line 43, F:/Projects/ruby/TradeCenter/app/assets/stylesheets/articles.scss */
+.article_form {
+  padding: 20px;
+  border: 2px solid green;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+/* line 6, F:/Projects/ruby/TradeCenter/app/assets/stylesheets/chats.scss */
+a:link {
+  background-color: black;
+  color: green;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* line 14, F:/Projects/ruby/TradeCenter/app/assets/stylesheets/chats.scss */
+.col-15 input[type=button], input[type=submit], input[type=reset] {
+  background-color: black;
+  border: 2px solid green;
+  color: green;
+  padding: 0;
+  text-decoration: none;
+  font-family: "lucida console", serif;
+}
+
+/* line 23, F:/Projects/ruby/TradeCenter/app/assets/stylesheets/chats.scss */
+.col-15 input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
+  background-color: green;
+  color: black;
+  cursor: pointer;
+}
+
+/* line 29, F:/Projects/ruby/TradeCenter/app/assets/stylesheets/chats.scss */
+.col-15 input[type=button]:focus, input[type=submit]:focus, input[type=reset]:focus {
+  outline: none;
+}
+
+/* line 33, F:/Projects/ruby/TradeCenter/app/assets/stylesheets/chats.scss */
+input[type=submit] {
+  float: none;
+}
+
+/* line 37, F:/Projects/ruby/TradeCenter/app/assets/stylesheets/chats.scss */
+label {
+  padding: none;
+}
+
+/* line 41, F:/Projects/ruby/TradeCenter/app/assets/stylesheets/chats.scss */
+.col-25 {
+  float: left;
+  width: 24%;
+  margin: 6px 0 0 0;
+  display: inline-block;
+}
+
+/* line 48, F:/Projects/ruby/TradeCenter/app/assets/stylesheets/chats.scss */
+.col-60 {
+  float: left;
+  width: 60%;
+  margin: 6px 0 0 0;
+  display: inline-block;
+}
+
+/* line 55, F:/Projects/ruby/TradeCenter/app/assets/stylesheets/chats.scss */
+.col-15 {
+  float: left;
+  width: 15%;
+  margin: 6px 0 0 0;
+  display: inline-block;
+}
+/* line 5, F:/Projects/ruby/TradeCenter/app/assets/stylesheets/home.scss */
+a:link, a:visited {
+  background-color: red;
+  color: grey;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* line 13, F:/Projects/ruby/TradeCenter/app/assets/stylesheets/home.scss */
+.title {
+  display: block;
+}
+
+/* line 17, F:/Projects/ruby/TradeCenter/app/assets/stylesheets/home.scss */
+.article_teaser {
+  border: 2px solid green;
+  margin-top: 20px;
+}
+
+/* line 22, F:/Projects/ruby/TradeCenter/app/assets/stylesheets/home.scss */
+.article_teaser_item {
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: inline-block;
+}
+
+/* line 29, F:/Projects/ruby/TradeCenter/app/assets/stylesheets/home.scss */
+.article_teaser_item p, .article_teaser_item h3 {
+  margin: 12px;
+}
+
+/* line 33, F:/Projects/ruby/TradeCenter/app/assets/stylesheets/home.scss */
+.article_teaser_link {
+  display: inline-block;
+  float: right;
+}
+
+/* line 38, F:/Projects/ruby/TradeCenter/app/assets/stylesheets/home.scss */
+.article_teaser_link a:link {
+  display: inline-block;
+}
+
+/* line 42, F:/Projects/ruby/TradeCenter/app/assets/stylesheets/home.scss */
+.article_wrap {
+  width: 100%;
+  display: block;
+}
+
+/* line 47, F:/Projects/ruby/TradeCenter/app/assets/stylesheets/home.scss */
+.message_body_text {
+  white-space: pre-wrap;
+}
+/* line 5, F:/Projects/ruby/TradeCenter/app/assets/stylesheets/sessions.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 9, F:/Projects/ruby/TradeCenter/app/assets/stylesheets/sessions.scss */
+body {
+  background-color: black;
+  color: green;
+  margin: 33px;
+}
+
+/* line 15, F:/Projects/ruby/TradeCenter/app/assets/stylesheets/sessions.scss */
+a:link, a:visited {
+  background-color: black;
+  color: green;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* line 23, F:/Projects/ruby/TradeCenter/app/assets/stylesheets/sessions.scss */
+a:hover, a:active {
+  background-color: green;
+  color: black;
+}
+
+/* line 28, F:/Projects/ruby/TradeCenter/app/assets/stylesheets/sessions.scss */
+input[type=text], input[type=password], select, textarea {
+  width: 100%;
+  background-color: green;
+  color: black;
+  border: 2px solid green;
+  box-sizing: border-box;
+  resize: vertical;
+  cursor: text;
+}
+
+/* line 38, F:/Projects/ruby/TradeCenter/app/assets/stylesheets/sessions.scss */
+input[type=text]:focus, input[type=password]:focus {
+  border: 2px solid green;
+  outline: none;
+}
+
+/* line 43, F:/Projects/ruby/TradeCenter/app/assets/stylesheets/sessions.scss */
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: black;
+  border: 2px solid green;
+  color: green;
+  padding: 12px;
+  text-decoration: none;
+}
+
+/* line 51, F:/Projects/ruby/TradeCenter/app/assets/stylesheets/sessions.scss */
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
+  background-color: green;
+  color: black;
+  cursor: pointer;
+}
+
+/* line 57, F:/Projects/ruby/TradeCenter/app/assets/stylesheets/sessions.scss */
+input[type=button]:focus, input[type=submit]:focus, input[type=reset]:focus {
+  outline: none;
+}
+
+/* line 61, F:/Projects/ruby/TradeCenter/app/assets/stylesheets/sessions.scss */
+textarea {
+  height: 70px;
+}
+
+/* line 65, F:/Projects/ruby/TradeCenter/app/assets/stylesheets/sessions.scss */
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: black;
+}
+
+/* line 68, F:/Projects/ruby/TradeCenter/app/assets/stylesheets/sessions.scss */
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: black;
+}
+
+/* line 71, F:/Projects/ruby/TradeCenter/app/assets/stylesheets/sessions.scss */
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: black;
+}
+
+/* line 74, F:/Projects/ruby/TradeCenter/app/assets/stylesheets/sessions.scss */
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: black;
+}
+
+/* line 78, F:/Projects/ruby/TradeCenter/app/assets/stylesheets/sessions.scss */
+input[type=submit] {
+  float: right;
+}
+
+/* line 82, F:/Projects/ruby/TradeCenter/app/assets/stylesheets/sessions.scss */
+label {
+  display: inline-block;
+}
+
+/* line 86, F:/Projects/ruby/TradeCenter/app/assets/stylesheets/sessions.scss */
+.login_form {
+  padding: 20px;
+  border: 2px solid green;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+/* line 95, F:/Projects/ruby/TradeCenter/app/assets/stylesheets/sessions.scss */
+.col-25 {
+  flaot: left;
+  width: 25%;
+  margin-top: 6px;
+  display: inline-block;
+}
+
+/* line 102, F:/Projects/ruby/TradeCenter/app/assets/stylesheets/sessions.scss */
+.col-75 {
+  flaot: right;
+  width: 75%;
+  margin-top: 6px;
+  display: inline-block;
+}
+
+/* line 109, F:/Projects/ruby/TradeCenter/app/assets/stylesheets/sessions.scss */
+.col-60 {
+  float: left;
+  width: 67%;
+  margin: 6px 0 0 0;
+  display: inline-block;
+}
+
+/* line 116, F:/Projects/ruby/TradeCenter/app/assets/stylesheets/sessions.scss */
+.col-15 {
+  float: left;
+  width: 8%;
+  margin: 6px 0 0 0;
+  display: inline-block;
+}
+
+/* line 123, F:/Projects/ruby/TradeCenter/app/assets/stylesheets/sessions.scss */
+.col-15 input[type=button], .col-15 input[type=submit], .col-15 input[type=reset] {
+  width: 100%;
+  background-color: black;
+  border: 2px solid green;
+  color: green;
+  padding: 1px;
+  text-decoration: none;
+  float: left;
+}
+
+/* line 133, F:/Projects/ruby/TradeCenter/app/assets/stylesheets/sessions.scss */
+.col-15 input[type=button]:hover, .col-15 input[type=submit]:hover, .col-15 input[type=reset]:hover {
+  background-color: green;
+  color: black;
+  cursor: pointer;
+}
+
+/* line 139, F:/Projects/ruby/TradeCenter/app/assets/stylesheets/sessions.scss */
+.col-15 input[type=button]:focus, .col-15 input[type=submit]:focus, .col-15 input[type=reset]:focus {
+  outline: none;
+}
+
+/* line 143, F:/Projects/ruby/TradeCenter/app/assets/stylesheets/sessions.scss */
+.row {
+  margin-top: 20px;
+}
+
+/* line 147, F:/Projects/ruby/TradeCenter/app/assets/stylesheets/sessions.scss */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 153, F:/Projects/ruby/TradeCenter/app/assets/stylesheets/sessions.scss */
+.back_button {
+  margin-top: 30px;
+}
+
+/* line 157, F:/Projects/ruby/TradeCenter/app/assets/stylesheets/sessions.scss */
+.back_button a:link, .back_button a:visited {
+  background-color: black;
+  padding: 12px;
+  border: 2px solid green;
+  display: inline-block;
+}
+
+/* line 164, F:/Projects/ruby/TradeCenter/app/assets/stylesheets/sessions.scss */
+.back_button a:link:hover, .back_button a:visited:hover {
+  background: green;
+  display: inline-block;
+}
+
+@media (max-width: 700px) {
+  /* line 170, F:/Projects/ruby/TradeCenter/app/assets/stylesheets/sessions.scss */
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
+
+* {
+	font-family: "lucida console", serif;
+	box-sizing: border-box;
+}
+ 
+body {
+	background-color: black;
+	color: green;
+}
+
+a:link, a:visited {
+	background-color: black;
+	color: green;
+	padding: 10px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
+a:hover, a:active {
+	background-color: green;
+	color: black;
+}
+
+.head_link_bar{
+	width: 100%;
+	height: 40px;
+}
+
+.head_wrap{
+	margin-left: 25%;
+	margin-right: 25%;
+	width: 50%;
+}
+
+.head_link{
+	display: inline-block;
+	float: right;
+}
+
+.body_wrap{	
+	margin-left: auto;
+	margin-right: 25%;
+	width: 50%;
+}
+
+
+
+
+
