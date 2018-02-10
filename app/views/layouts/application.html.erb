@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TradeCenter</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+		<div class="layout_head">		
+			
+			<div class="head_link_bar">
+			<div class="head_wrap">
+				<div class="head_link">
+					<%= if check_access_level 1 then link_to "Logout", logout_url, method: :delete end %>
+				</div>
+				<div class="head_link">
+					<%= if check_access_level 3 then link_to "Users", users_url, method: :get end %>
+				</div>
+				<div class="head_link">
+					<%= if check_access_level 1 then link_to "Chats", chats_url, method: :get end %>
+				</div>
+				<div class="head_link">
+					<%= if check_access_level 2 then link_to "Articles", user_articles_url(session[:user_id]) end %>
+				</div>
+				<div class="head_link">
+					<%= if check_access_level 1 then link_to "Home", home_url, method: :get end %>
+				</div>
+			</div>
+			</div>
+			
+			<div class="body_wrap">
+				<%= yield %>
+			</div>
+		</div>
+		
+  </body>
+</html>

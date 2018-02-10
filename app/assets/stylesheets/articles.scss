@@ -1,0 +1,50 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+textarea.body_text {
+	font-family: "lucida console", serif;
+	height: 300px;
+}
+
+.article_wrap{
+	margin: 20px 0 20px 0;
+}
+
+.article{
+	padding-bottom: 20px;
+	border-bottom: 2px solid green;
+}
+
+.article_resume, .article_body_text{
+	white-space: pre-wrap;
+}
+
+.new_article_button{	
+	margin-top: 30px;
+}
+
+.new_article_button a:link{
+	background-color: black;
+	padding: 12px;
+	border: 2px solid green;
+	display: inline-block;
+}
+
+.new_article_button a:link:hover{
+	background: green;
+	display: inline-block;
+}
+
+.new_article_wrap{
+}
+
+.article_form{
+	padding: 20px;
+  border: 2px solid green;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}

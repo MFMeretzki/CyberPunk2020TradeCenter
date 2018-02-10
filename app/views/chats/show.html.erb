@@ -1,0 +1,11 @@
+<div class="chat_show">
+	<h3><%= @chat.title %></h3>
+	
+	<div id="messages">
+		<%= render @chat_messages %>
+	</div>
+		
+	<div id="message_form">
+		<%= render "messages/form" %>
+	</div>
+</div>

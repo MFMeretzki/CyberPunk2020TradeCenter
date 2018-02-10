@@ -1,0 +1,5 @@
+<%= render @article %>
+
+<%= link_to 'Back', user_articles_path %>
+<%= link_to 'Destroy', user_article_path(@article[:user_id], @article.id),  
+		method: :delete, data: {confirm: 'Are you sure?'} %>

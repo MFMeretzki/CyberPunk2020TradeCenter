@@ -1,0 +1,9 @@
+
+<div class="article_wrap">
+	<%= render partial: "articles/article", Object => @article %>
+	<%= render partial: "chats/form", locals: {:article_id => @article.id, :user_id => @article.user_id} %>
+</div>
+
+<div class="back_button">
+	<%= link_to "Back", home_path %>
+</div>

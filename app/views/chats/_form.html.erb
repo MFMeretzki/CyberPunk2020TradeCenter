@@ -1,0 +1,21 @@
+<div class="chat_form">
+	<%= form_with model: @chat, url: chats_url(:article_id => article_id,
+			:user_id => session[:user_id]),
+		method: :post, local: true do |form| %>
+	 
+		<div class="row">
+			<div class="col-25">
+				<%= form.label :title,"New chat (title): " %>
+			</div>
+			<div class="col-60">
+				<%= form.text_field :title %>
+			</div>
+			<div class="col-15">
+				<%= form.submit "Create"  %>
+			</div>
+		</div>
+		
+	 
+	<% end %>
+</div>
+ 

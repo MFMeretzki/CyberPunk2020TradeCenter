@@ -1,0 +1,2 @@
+$("<%= escape_javascript(render @chat_message) %>").appendTo("#messages");
+$("#message_form").html("<%= escape_javascript(render partial: 'messages/form') %>");

@@ -1,0 +1,49 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+a:link, a:visited {
+	background-color: red;
+	color: grey;
+	padding: 10px 15px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.title{
+	display: block;
+}
+
+.article_teaser{
+	border: 2px solid green;
+	margin-top: 20px;
+}
+
+.article_teaser_item{
+	width: 100%;
+	padding-left: 10px;
+	padding-right: 10px;
+	display: inline-block;
+}
+
+.article_teaser_item p, .article_teaser_item h3{
+	margin: 12px;
+}
+
+.article_teaser_link{
+	display: inline-block;
+	float: right;
+}
+
+.article_teaser_link a:link{
+	display: inline-block;
+}
+
+.article_wrap{
+	width: 100%;
+	display: block;
+}
+
+.message_body_text{
+	white-space: pre-wrap;
+}

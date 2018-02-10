@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nick: MyString
+  hashed_pass: MyString
+  salt: MyString
+  type: 1
+
+two:
+  nick: MyString
+  hashed_pass: MyString
+  salt: MyString
+  type: 1

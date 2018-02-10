@@ -1,0 +1,14 @@
+<div class="message_form">
+<%= form_with(model: @message,
+		url: chat_messages_path(:chat_id => @chat.id, :user_id => session[:user_id]),
+		method: :post) do |form| %>
+		
+  <p>
+    <%= form.text_area :body_text, placeholder: "New message..." %>
+  </p>
+  <p>
+    <%= form.submit "Send" %>
+  </p>
+	
+<% end %>
+</div>

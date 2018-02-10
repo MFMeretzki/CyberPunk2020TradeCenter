@@ -1,0 +1,11 @@
+<div class="title">
+	<h1>Articles</h1>
+</div>
+
+<div class="new_article_button">
+	<%= link_to "New", new_user_article_url(session[:user_id]) %>
+</div>
+
+<div class="article_teasers_wrap">
+	<%= render partial: "teaser", collection: @articles %>
+</div>

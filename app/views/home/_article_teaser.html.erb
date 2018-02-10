@@ -1,0 +1,21 @@
+<div class="article_teaser">
+
+<div class="article_teaser_item">
+	<h3><%= article_teaser.title %></h3>
+</div>
+
+<div class="article_teaser_item">
+	<p><%= article_teaser.resume %></p>
+</div>
+
+<div class="article_teaser_item">
+	<p>by: <%= article_teaser.trader %></p>
+</div>	
+
+<div class="article_teaser_item">
+	<div class="article_teaser_link">
+		<%= link_to "Show", home_article_show_path(article_teaser[:id]) %>
+	</div>
+</div>	
+	
+</div>

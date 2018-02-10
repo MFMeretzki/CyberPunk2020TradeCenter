@@ -1,0 +1,20 @@
+<div class="article_teaser">
+
+<div class="article_teaser_item">
+	<h3><%= teaser.title %></h3>
+</div>
+
+<div class="article_teaser_item">
+	<p><%= teaser.resume %></p>
+</div>	
+
+<div class="article_teaser_item">
+	<div class="article_teaser_link">
+		<%= link_to "Show", user_article_path(teaser[:user_id], teaser.id) %>
+	</div>
+	<div class="article_teaser_link">
+		<%= link_to "Chats", article_chats_path(teaser[:user_id], teaser.id) %>
+	</div>
+</div>
+	
+</div>
